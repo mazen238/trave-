@@ -10,6 +10,11 @@
 ::-webkit-scrollbar {
     display: none;
 }
+header nav a img{
+    width: 30px;
+     height: auto;
+     margin-left: 10px;
+}
 body{
     overflow-x: hidden;
 }
@@ -52,7 +57,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 200px;
+    padding: 10px 220px;
     }
     .one{
         width: 100%;
