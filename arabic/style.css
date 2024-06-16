@@ -11,6 +11,11 @@
 ::-webkit-scrollbar {
     display: none;
 }
+header nav a img{
+    width: 30px;
+     height: auto;
+     margin-left: 10px;
+}
 body{
     overflow-x: hidden;
 }
@@ -26,7 +31,7 @@ body{
     font-family: sans-serif;
     color: black;
     font-weight: 200;
-    font-size: 20px;
+    font-size: 30px;
     text-decoration: none;
   padding-left: 50px;
 }
@@ -38,7 +43,7 @@ transition: 0.5s ease-in-out;
     font-family: sans-serif;
     color: black;
     font-weight: 200;
-    font-size: 20px;
+    font-size: 30px;
     text-decoration: none;
     letter-spacing: 2px;
     padding-left: 500px;
@@ -79,20 +84,20 @@ font-weight: 500;
 position: relative;
 right: 500px;
 color:black;
-font-size: 20px;
+font-size: 30px;
 transition: 0.5s ease-in-out;
 border: none;
     }
     .txt1{
         color: white;
-        font-size: 1.1em;
+        font-size: 1.3em;
         font-weight: 600;
     }
     h2 span{
         display:inline-block;
         margin-top: 10px;
         color:#ffae00;
-        font-size: 3em;
+        font-size: 3.3em;
     font-weight: 600;
     text-shadow: 2px 2px 60px;
     }
@@ -120,7 +125,7 @@ padding-left: 100px;
     }
     .two h2 ,h3 ,h4 ,h5{
         margin-top: 5px;
-        font-size: 15px;
+        font-size: 20px;
         font-weight: bold;
         
     }
