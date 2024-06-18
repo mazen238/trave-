@@ -15,6 +15,7 @@ header nav a img{
      height: auto;
      margin-left: 10px;
 }
+
 body{
     overflow-x: hidden;
 }
@@ -36,7 +37,7 @@ body{
   padding-left: 50px;
 }
 a:hover{
-filter: brightness(0.6);
+filter: brightness(0.9);
 transition: 0.5s ease-in-out;
 }
 .buy{
@@ -215,3 +216,10 @@ font-size: 15px;
 transition: 0.5s ease-in-out;
 margin-left:10px ;
 }
+.d1 a:hover{
+    transform: scale(1.1);
+}
+.d1 img:hover{
+    transform: scale(1.1);
+}
+
