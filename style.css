@@ -6,6 +6,10 @@
     scroll-behavior: smooth;
     transition: 0.5 ease-in-out;    
     text-transform: uppercase;
+    animation: sa;
+    animation-timing-function:ease-in-out;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
 }
 ::-webkit-scrollbar {
     display: none;
@@ -439,4 +443,12 @@ margin-left:10px ;
     .d1 img:hover{
         transform: scale(1.1);
     }
+}
+@keyframes sa{
+    0%{
+        translate: 0px -50px;
+    }
+100%{
+    translate: 0px 00px;
+}
 }
