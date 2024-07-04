@@ -284,7 +284,8 @@ top: 10px;
         flex-direction: column;
         flex-wrap: wrap;
         opacity: 0;
-        margin-right:900px;
+        position: relative;
+        padding-right:900px;
 
         
         }
